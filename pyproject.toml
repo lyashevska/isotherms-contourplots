@@ -1,0 +1,42 @@
+# https://packaging.python.org/en/latest/tutorials/packaging-projects/
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "netcdf-isotherms"
+version = "0.0.1"
+authors = [
+  { name="Olga Lyashevska", email="olga.lyashevska@gmail.com" },
+]
+description = "A small python package to generate isotherms from netcdf files"
+keywords = [
+    "netcdf",
+    "isotherms",
+    "sst",
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "netCDF4 == x.x.x",
+    "matplotlib == x.x.x",
+    "numpy == x.x.x",
+    "pandas == x.x.x",
+    "mpl_toolkits.basemap == x.x.x",
+
+]
+
+[project.urls]
+Repository = "https://github.com/lyashevska/netcdf-isotherm"
+Issues = "https://github.com/lyashevska/netcdf-isotherm/issues"
+Changelog = "https://github.com/lyashevska/netcdf-isotherm/CHANGELOG.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
