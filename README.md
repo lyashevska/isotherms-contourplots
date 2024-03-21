@@ -1,3 +1,5 @@
+<img src="https://github.com/lyashevska/netcdf-isotherms/blob/master/a_logo_herring_fish_swimming_in_imaginary_ocean.PNG" width="128"/>
+
 # isotherms-contourplots
 Create isotherms for 163 (1854 - 2017) years of Monthly Mean of Sea Surface Temperature
 Calculate mean latitude of 13oC isotherm
